@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <form action="" name="billform" onsubmit="return valid()">
+                            <h1>Simple Bill Creation</h1>
+                            <label for="price">Enter a product price:</label>
+                            <input type="text" id="price" name="rate"><br>
+                                
+                                <label for="gst">3% GST:</label>
+                                <input type="text" id="gst" name="wgst"><br>
+                                <label for="tot">Total amount:</label>
+                                <input type="text" id="tot" name="tota"><br>
+                            <input type="submit" class="btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

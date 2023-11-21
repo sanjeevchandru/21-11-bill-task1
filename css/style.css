@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    padding-top: 5%;
+}
+.col{
+    width: 60%;
+    margin: auto;
+}
+.card{
+    background-color: #202121da;
+    padding: 30px;
+    text-align: center;
+    border: 30px solid #000000ae;
+}
+label,h1{
+    line-height: 3;
+    color: #fff;
+}
+label{
+    font-size: 20px;
+}
+.btn{
+    background-color: #0a70ab;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #fff;
+}
+.btn:hover{
+    box-shadow: 0 0 10px #000;
+}
